@@ -1,0 +1,72 @@
+body {
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image:url(/Users/bhupindersingh/Downloads/photo-1461696114087-397271a7aedc.webp) ;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+ 
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+  
+    margin: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+#task-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+#task-input {
+   border-radius: 12px;
+    flex: 1;
+    padding: 15px;
+    margin-right: 10px;
+    background-color: bisque;
+}
+button{
+  border-radius: 12px;
+  padding : 15px;
+}
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task:hover {
+    background-color: #3ba8c9;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
